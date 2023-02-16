@@ -1,14 +1,13 @@
-#include <studio.>
+#include <stdio.h>
 
 /**
- * main- This is the main function description
+ * main-This is the main fuction description
  *
- * Return: 0 for successful exit
+ * Return: 0 for succesful exit
  */
 
-int main (void)
+int main(void))
 {
-	puts ("\"Programming is like bulding a multiliingual puzzle");
-	return (0)
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
-
