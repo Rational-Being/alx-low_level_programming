@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  *  * print_triangle - function that prints a square, followed by a new line
