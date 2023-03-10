@@ -1,1 +1,1 @@
-starting to code with c, so cool
+0x09. C - Static libraries
