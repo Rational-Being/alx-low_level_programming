@@ -3,9 +3,10 @@
 #include <stdio.h>
 #include "lists.h"
 
+
 /**
- * main - check the code for Holberton School student.
- *   *
+ * main - check the code
+ *
  * Return: 0
  */
 int main(void)
