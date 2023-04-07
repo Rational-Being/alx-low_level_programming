@@ -7,7 +7,7 @@
 * Return: converted number (unsigned integer)
 */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int base_two = 1, len = 0, result;
 
