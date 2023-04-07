@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
-* binary_to_unit - function that converts binary numbers to an unsined integer
+* binary_to_uint - function that converts binary numbers to an unsined integer
 * @b: pointer to binary string
 * Return: converted number (unsigned integer)
 */
@@ -16,7 +16,6 @@ unsigned int binary_to_uint(const char *b)
 
 	while (b[len])
 		len++;
-	
 	result = 0;
 
 	while (len)
