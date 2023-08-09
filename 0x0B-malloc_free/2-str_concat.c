@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * str_concat - q function that joins two strings togather
+ * @s1: first argument
+ * @s2: secind arg
+ * Return: a pointer variable
+ */
+
 char *str_concat(char *s1, char *s2)
 {
 	int a, b, c, d;
