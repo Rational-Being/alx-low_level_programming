@@ -1,0 +1,5 @@
+In this phase of learning C, I will be learning 
+
+    How to use the exit function
+    What are the functions calloc and realloc from the standard library and how to use them
+
