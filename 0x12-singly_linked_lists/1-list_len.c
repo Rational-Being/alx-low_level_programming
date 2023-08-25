@@ -6,7 +6,7 @@
  * Return: number of elements in the list
  */
 
-size_t list_len(const list_t &h)
+size_t list_len(const list_t *h)
 {
 	size_t no_nodes;
 
@@ -14,7 +14,7 @@ size_t list_len(const list_t &h)
 	while (h != NULL)
 	{
 		h = h->next;
-		no_nodes;
+		no_nodes++;
 	}
 	return (no_nodes);
 }
