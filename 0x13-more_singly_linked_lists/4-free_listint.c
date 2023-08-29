@@ -2,7 +2,7 @@
 
 /**
  * free_listint - a function that fress a linked list
- * @heead: pointer to head
+ * @head: pointer to head
  * Return: noting
  */
 

@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free-listint2 - funtion tha tfrees listint_t list
+ * free_listint2 - funtion tha tfrees listint_t list
  * @head : pointer to head
  * Retun: nothing
  */
