@@ -1,5 +1,11 @@
 #include "lists.h"
 
+/**
+ * print_listint_safe - a funtion that prints a listint_t linked list
+ * @head: head pointer
+ * Return: no of node
+ */
+
 size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *prev, *current;
