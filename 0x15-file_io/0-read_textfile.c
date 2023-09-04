@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * read_textfile - funtion that reads a file and prints it to Psix
+ * @filename: file to read
+ * @letters: no of letters to be read and rinted
+ * Return: number of letters it should read and print, 0 on failure
+ */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -18,7 +24,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (temp == NULL)
 	{
 		free(temp);
-		return(0);
+		return (0);
 	}
 
 	txtr = read(fd, temp, letters);
@@ -32,5 +38,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(temp);
 
 	close(fd);
-	return(txtw);
+	return (txtw);
 }
