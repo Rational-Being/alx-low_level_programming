@@ -7,12 +7,12 @@
  * Return: the index given or Null
  */
 
-dlistint_t *get_dnodeint_At_index(dlistint_t *head, unsigned int index)
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	unsigned int c;
 
-	for (c = 0; head; i++, head = head->next)
-		if (i == index)
+	for (c = 0; head; c++, head = head->next)
+		if (c == index)
 			return (head);
 	return (NULL);
 }
