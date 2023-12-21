@@ -1,3 +1,2 @@
-cmd = gcc -Wall -Werror -Wextra -pedantic
 all: main.c school.c
-    $(cmd) main.c school.c -o school
+    gcc main.c school.c -o school
