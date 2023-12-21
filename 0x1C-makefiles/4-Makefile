@@ -9,7 +9,7 @@ CFLAGS = gcc -Wall -Werror -Wextra -pedantic
 all : $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
-.PHONY : clean oclean fclean re
+.PHONY : clean oclean fclean
 
 clean :
 	$(RM) *~ $(NAME)
