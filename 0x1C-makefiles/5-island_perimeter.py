@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+"""
+    this file calculateste perimeter of the 
+    area
+"""
+
 
 def island_perimeter(grid):
     """
