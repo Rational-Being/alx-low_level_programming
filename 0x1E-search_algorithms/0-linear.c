@@ -4,7 +4,7 @@
  * linear_search - a funtion that searches for a value oin an array of integer
  * @array: array passed
  * @size: size of te array
- * @value: value to serc for 
+ * @value: value to search for
  * Return: first index were value os located otherwise -1 for value not exist
  */
 
